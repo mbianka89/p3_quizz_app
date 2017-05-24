@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Volunteer</string>
+    <string name="title">Care. Connect. Volunteer.</string>
+    <string name="description">Let`s volunteer today! Are you ready?</string>
+    <string name="benefits">1. Why should I volunteer?</string>
+    <string name="benefit1">Reduces Stress</string>
+    <string name="benefit2">Builds Self Esteem</string>
+    <string name="benefit3">Creates A Sense of Purpose</string>
+    <string name="benefit4">Maintains Cardiovascular Health</string>
+    <string name="benefit5">Lowers Mortality Rates</string>
+    <string name="benefit6">Overcomes social inequality</string>
+    <string name="benefit7">Promotes Travel</string>
+    <string name="benefit8">Teaches Caring and Empathy</string>
+    <string name="benefit9">You can learn new skills while volunteering</string>
+    <string name="traits">2. Which of the following personality traits are the 2 most important ones for a volunteer to have?</string>
+    <string name="trait1">Calm</string>
+    <string name="trait2">Empathetic</string>
+    <string name="trait3">Helpful</string>
+    <string name="trait4">Hard-working</string>
+    <string name="trait5">Communicative</string>
+    <string name="volunteerinstead">3. Would you volunteer instead of surfing on the internet for a day? </string>
+    <string name="insteadno">No way.</string>
+    <string name="insteadyes">Yes, sure.</string>
+    <string name="insteadgood">What a good idea! Maybe later.</string>
+    <string name="subtitle1">4. Who do you think you could help the most locally?</string>
+    <string name="subtitle101">Children</string>
+    <string name="subtitle102">Orphans</string>
+    <string name="subtitle103">Youth</string>
+    <string name="subtitle104">Women</string>
+    <string name="subtitle105">Widows</string>
+    <string name="subtitle106">Elderly</string>
+    <string name="subtitle107">Homeless</string>
+    <string name="Actlocal">5. Think global. Act local. Do you agree?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="textHours">6.How many hours could you volunteer per week?</string>
+    <string name="hint">Write here your answer</string>
+    <string name="submitbutton">Submit</string>
+
+</resources>

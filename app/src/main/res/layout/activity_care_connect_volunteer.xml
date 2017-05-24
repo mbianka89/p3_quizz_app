@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/activity_volunteer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.example.android.volunteer.Volunteer">
+
+            <!-- This is an app motivating everybody to volunteer.
+            Starts with an image with children helping each other and a motivational introduction.. -->
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="256dp"
+                android:src="@drawable/kidsmiddle" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description"></TextView>
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:inputType="textCapWords" />
+            /**
+            * Question 1.
+            */
+            <TextView
+                android:id="@+id/q1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/benefits"></TextView>
+            <CheckBox
+                android:id="@+id/q11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/benefit1"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/benefit2"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/benefit3"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/benefit4"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/benefit5"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/benefit6"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/benefit7"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/benefit8"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/benefit9"
+                android:textAllCaps="true" />
+            /**
+            * Question 2.
+            */
+            <TextView
+                android:id="@+id/q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/traits"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/trait1"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/trait2"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/trait3"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/trait4"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/trait5"
+                android:textAllCaps="true" />
+            /**
+            * Question 3.
+            */
+            <TextView
+                android:id="@+id/q3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/volunteerinstead"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/insteadno"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/insteadyes"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/insteadgood"
+                android:textAllCaps="true" />
+            /**
+            * Question 4.
+            */
+            <TextView
+                android:id="@+id/q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/subtitle1"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/subtitle101"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/subtitle102"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/subtitle103"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/subtitle104"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/subtitle105"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/subtitle106"
+                android:textAllCaps="true" />
+            <CheckBox
+                android:id="@+id/q47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/subtitle107"
+                android:textAllCaps="true" />
+            /**
+            * Question 5.
+            */
+            <TextView
+                android:id="@+id/q5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/Actlocal"
+                android:textAllCaps="true" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/q51"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yes"
+                    android:textAllCaps="true" />
+                <RadioButton
+                    android:id="@+id/q52"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no"
+                    android:textAllCaps="true" />
+            </RadioGroup>
+            /**
+            * Question 6.
+            */
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textHours"
+                android:textAllCaps="true"/>
+
+            <EditText
+                android:id="@+id/q6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint"
+                android:inputType="number" />
+            /**
+            * Submit button, that calculates the score in java.
+            */
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="submitScore"
+                android:text="@string/submitbutton" />
+        </LinearLayout>
+    </ScrollView>
