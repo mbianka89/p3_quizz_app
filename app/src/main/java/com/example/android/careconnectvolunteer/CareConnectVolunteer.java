@@ -141,12 +141,93 @@ public class CareConnectVolunteer extends AppCompatActivity {
         if (  !volunteerHoursPerWeek.isEmpty() && !volunteerHoursPerWeek.equals("0")) {
             score += 1;
         }
-        // Final Evaluation
-        if (score < 4) {
-            Toast.makeText(this, "Well done! You should consider to join one of your local volunteer community in order to maximize your impact.", Toast.LENGTH_LONG).show();
-        } else if (score < 10) {
-            Toast.makeText(this, "Really good! You are ready to make the World better. We encourage you to do volunteer work even alone. Well done!", Toast.LENGTH_LONG).show();
-        } else {
-            Toast.makeText(this, "Excellent! You should consider to organize a local volunteer community in order to share your knowledge and help others to start volunteering.", Toast.LENGTH_LONG).show();
+           // Final Evaluation
+
+        if (score < 2 ) {
+
+            Toast.makeText(this, "Your score is 1/21. Better luck next time!", Toast.LENGTH_LONG).show();
+        }
+
+            if (score < 3 ) {
+
+                Toast.makeText(this, "Your score is 2/21. Better luck next time!", Toast.LENGTH_LONG).show();
+            }
+
+        if (score < 4 ) {
+
+            Toast.makeText(this, "Your score is 3/21. Better luck next time!", Toast.LENGTH_LONG).show();
+        }
+
+        if (score < 5 ) {
+
+            Toast.makeText(this, "Your score is 4/21. Better luck next time!", Toast.LENGTH_LONG).show();
+        }
+        if (score < 6 ) {
+
+            Toast.makeText(this, "Your score is 5/21. Better luck next time!", Toast.LENGTH_LONG).show();
+        }
+        if (score < 7 ) {
+
+            Toast.makeText(this, "Your score is 6/21. Better luck next time!", Toast.LENGTH_LONG).show();
+        }
+        if (score < 8 ) {
+
+            Toast.makeText(this, "Your score is 7/21. Better luck next time!", Toast.LENGTH_LONG).show();
+        }
+        if (score < 9 ) {
+
+            Toast.makeText(this, "Your score is 8/21. Nice job!", Toast.LENGTH_LONG).show();
+        }
+        if (score < 10 ) {
+
+            Toast.makeText(this, "Your score is 9/21. Nice job!", Toast.LENGTH_LONG).show();
+        }
+        if (score < 11 ) {
+
+            Toast.makeText(this, "Your score is 10/21. Nice job!", Toast.LENGTH_LONG).show();
+        }
+        if (score < 12 ) {
+
+            Toast.makeText(this, "Your score is 11/21. Nice job!", Toast.LENGTH_LONG).show();
+        }
+        if (score < 13 ) {
+
+            Toast.makeText(this, "Your score is 12/21. Nice job!", Toast.LENGTH_LONG).show();
+        }
+        if (score < 14 ) {
+
+            Toast.makeText(this, "Your score is 13/21. Nice job!", Toast.LENGTH_LONG).show();
+        }
+        if (score < 15 ) {
+
+            Toast.makeText(this, "Your score is 14/21. Excellent!", Toast.LENGTH_LONG).show();
+        }
+        if (score < 16 ) {
+
+            Toast.makeText(this, "Your score is 15/21. Excellent!", Toast.LENGTH_LONG).show();
+        }
+        if (score < 17 ) {
+
+            Toast.makeText(this, "Your score is 16/21. Excellent!", Toast.LENGTH_LONG).show();
+        }
+        if (score < 18 ) {
+
+            Toast.makeText(this, "Your score is 17/21. Excellent!", Toast.LENGTH_LONG).show();
+        }
+        if (score < 19 ) {
+
+            Toast.makeText(this, "Your score is 18/21. Excellent!", Toast.LENGTH_LONG).show();
+        }
+        if (score < 20 ) {
+
+            Toast.makeText(this, "Your score is 19/21. Excellent!", Toast.LENGTH_LONG).show();
+        }
+        if (score < 21 ) {
+
+            Toast.makeText(this, "Your score is 20/21. Excellent!", Toast.LENGTH_LONG).show();
+        }
+        if (score < 22) {
+
+            Toast.makeText(this, "Your score is 21/21. Wohoow! 100% Excellent!", Toast.LENGTH_LONG).show();
         }
 }}
