@@ -19,9 +19,14 @@ public class CareConnectVolunteer extends AppCompatActivity {
     private CheckBox mQ17CheckBox;
     private CheckBox mQ18CheckBox;
     private CheckBox mQ19CheckBox;
+    private CheckBox mQ21CheckBox;
     private CheckBox mQ22CheckBox;
     private CheckBox mQ23CheckBox;
+    private CheckBox mQ24CheckBox;
+    private CheckBox mQ25CheckBox;
+    private CheckBox mQ31CheckBox;
     private CheckBox mQ32CheckBox;
+    private CheckBox mQ33CheckBox;
     private CheckBox mQ41CheckBox;
     private CheckBox mQ42CheckBox;
     private CheckBox mQ43CheckBox;
@@ -46,9 +51,14 @@ public class CareConnectVolunteer extends AppCompatActivity {
         mQ17CheckBox = (CheckBox) findViewById(R.id.q17);
         mQ18CheckBox = (CheckBox) findViewById(R.id.q18);
         mQ19CheckBox = (CheckBox) findViewById(R.id.q19);
+        mQ21CheckBox = (CheckBox) findViewById(R.id.q21);
         mQ22CheckBox = (CheckBox) findViewById(R.id.q22);
         mQ23CheckBox = (CheckBox) findViewById(R.id.q23);
+        mQ24CheckBox = (CheckBox) findViewById(R.id.q24);
+        mQ25CheckBox = (CheckBox) findViewById(R.id.q25);
+        mQ31CheckBox = (CheckBox) findViewById(R.id.q31);
         mQ32CheckBox = (CheckBox) findViewById(R.id.q32);
+        mQ33CheckBox = (CheckBox) findViewById(R.id.q33);
         mQ41CheckBox = (CheckBox) findViewById(R.id.q41);
         mQ42CheckBox = (CheckBox) findViewById(R.id.q42);
         mQ43CheckBox = (CheckBox) findViewById(R.id.q43);
@@ -101,17 +111,17 @@ public class CareConnectVolunteer extends AppCompatActivity {
         if (mQ19CheckBox.isChecked()) {
             score += 1;
         }
+
         // Evaluate Question 2 answers.
-        if (mQ22CheckBox.isChecked()) {
-            score += 1;
-        }
-        if (mQ23CheckBox.isChecked()) {
-            score += 1;
+
+        if (!mQ21CheckBox.isChecked() && mQ22CheckBox.isChecked() && mQ23CheckBox.isChecked() && !mQ24CheckBox.isChecked() && !mQ25CheckBox.isChecked()) {
+            score++;
         }
         // Evaluate Question 3 answers.
-        if (mQ32CheckBox.isChecked()) {
-            score += 1;
+        if (!mQ31CheckBox.isChecked() && mQ32CheckBox.isChecked() && !mQ33CheckBox.isChecked()) {
+            score++;
         }
+
         // Evaluate Question 4 answers.
         if (mQ41CheckBox.isChecked()) {
             score += 1;
@@ -147,6 +157,10 @@ public class CareConnectVolunteer extends AppCompatActivity {
 
         // Final Evaluation
 
+        if (score == 0) {
+
+            Toast.makeText(this, "Your score is 0/21. Better luck next time!", Toast.LENGTH_LONG).show();
+        }
 
         if (score == 1) {
 
@@ -234,6 +248,6 @@ public class CareConnectVolunteer extends AppCompatActivity {
         if (score == 21) {
 
             Toast.makeText(this, "Your score is 21/21. Wohoow! 100% Excellent!", Toast.LENGTH_LONG).show();
-        }       
+        }
     }
 }
